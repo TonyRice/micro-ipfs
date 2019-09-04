@@ -10,7 +10,7 @@ Usage
 
 ```coffee
 # Storyscript
-data = micro-ipfs cat path: 'QmSB457KugLfZpUeb4X5E3jB4fevxzAqN8H1HrmVFALfAw'
+data = TonyRice/ipfs cat path: 'QmSB457KugLfZpUeb4X5E3jB4fevxzAqN8H1HrmVFALfAw'
 ```
 
 Test
