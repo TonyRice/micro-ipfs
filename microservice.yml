@@ -1,0 +1,28 @@
+omg: 1
+info:
+  version: 0.0.1
+  title: Micro IPFS
+  description: A basic OMG service implemented using js-ipfs
+  license:
+    name: Apache 2.0
+    url: https://opensource.org/licenses/Apache-2.0
+lifecycle:
+  startup:
+    command: ["node", "/app/src/index.js"]
+health:
+  http:
+    path: /health
+    port: 5555
+actions:
+  cat:
+    http:
+      path: /cat
+      method: post
+      port: 5555
+    arguments:
+      path:
+        type: string
+        required: true
+        in: requestBody
+    output:
+      type: any
