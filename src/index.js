@@ -29,5 +29,5 @@ IPFS.create(config).then((ipfs) => {
 
     app.listen(5555);
 
-    console.log(`Listening on localhost:${port}`);
+    console.log(`Listening on localhost:5555`);
 });
