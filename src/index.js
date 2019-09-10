@@ -7,7 +7,7 @@ const body = require('koa-json-body');
 const IPFS = require('ipfs');
 const config = require('./config');
 
-const toStream = require('pull-stream-to-stream')
+const toStream = require('pull-stream-to-stream');
 
 IPFS.create(config).then((ipfs) => {
     router.post('/cat', (ctx, next) => {
