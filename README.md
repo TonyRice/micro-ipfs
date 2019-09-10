@@ -5,12 +5,15 @@
 
 A basic OMG service implemented using js-ipfs.
 
-Usage
+Storyscript Usage
 -----
 
 ```coffee
-# Storyscript
+
 data = TonyRice/ipfs cat path: 'QmSB457KugLfZpUeb4X5E3jB4fevxzAqN8H1HrmVFALfAw'
+
+ipld = data = TonyRice/ipfs add data: 'hello world'
+
 ```
 
 Test
