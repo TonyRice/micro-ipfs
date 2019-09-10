@@ -26,3 +26,15 @@ actions:
         in: requestBody
     output:
       type: any
+  add:
+    http:
+      path: /add
+      method: post
+      port: 5555
+    arguments:
+      data:
+        type: any
+        required: true
+        in: requestBody
+    output:
+      type: any
